@@ -1,6 +1,9 @@
 {
+  "scripts": {
+    "test": "testcafe chrome:headless tests/**/* -r xunit:/tmp/test-results/testcafe/results.xml"
+  },
   "devDependencies": {
-    "testcafe": "^1.18.4",
-    "testcafe-reporter-xunit": "^2.2.1"
+    "testcafe": "*",
+    "testcafe-reporter-xunit": "*"
   }
 }
